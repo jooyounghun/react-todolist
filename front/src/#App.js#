@@ -1,0 +1,15 @@
+import React,{Component} from 'react';
+import IndexTemplate from './components/index/IndexTemplate';
+import Form from './components/form/Form';
+
+class App extends Component{
+    render(){
+        return (
+		<IndexTemplate form={<Form/>}>
+                고민 해결
+            </IndexTemplate>
+        );
+    }
+}
+
+export default App;
